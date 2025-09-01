@@ -38,7 +38,7 @@ schedule.every(1).minutes.do(monitor_product)
 
 while True:
     schedule.run_pending()
-    sleep(random.uniform(5, 10))
+    sleep(random.uniform(10, 15))
    
 
 
@@ -48,4 +48,5 @@ while True:
 
 
                                         
+
     
